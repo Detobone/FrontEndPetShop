@@ -1,0 +1,529 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* --------------------- HEADER STYLES STARTS HERE ---------------------*/
+header {
+  width: 100%;
+  position: fixed;
+  background-color: #222222;
+  color: #fff;
+}
+
+/* --------------------- LANGUAGE BAR STARTS HERE ---------------------*/
+
+#languageBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 20px;
+}
+
+#languageBar ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+}
+
+#languageBar ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  color: #fff;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+header a:hover {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+
+  text-size-adjust: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.topSelect {
+  background-color: #222222;
+  border: none;
+  color: #fff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.topSelect:hover {
+  background-color: #222222;
+  text-size-adjust: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 12px;
+}
+/* --------------------- LANGUAGE ENDS HERE ---------------------*/
+
+/* --------------------- NAVIGATION BAR STARTS HERE ---------------------*/
+.navigationBar {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  background-color: #f0a83e;
+  height: 62px;
+}
+
+.logoText {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logoText li a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logoText:hover {
+  cursor: pointer;
+  font-size: 22px;
+  line-height: 25px;
+  color: #3c2313;
+}
+.l1 {
+  color: #3c2313;
+}
+
+.listaNavBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: #f0a83e; */
+  list-style-type: none;
+}
+
+.listaNavBar li {
+  margin-left: 15px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.listaNavBar li:hover {
+  margin-left: 15px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  cursor: pointer;
+}
+/* --------------------- HEADER BAR ENDS HERE ---------------------*/
+
+/* --------------------- MAIN SECTION STARTS HERE ---------------------*/
+
+main {
+}
+
+/* --------------------- SLIDER SECTION STARTS HERE ---------------------*/
+
+#slideHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  background-image: url("../img/ImagenSlide.png");
+  height: 409px;
+  width: 100vw;
+  position: contain;
+  padding: 19px;
+}
+
+#slideHeader ul {
+  /* display: block;
+   */
+  list-style-type: none;
+  text-align: center;
+}
+#slideHeader ul li {
+  /* display: block;
+   */
+  list-style-type: none;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.slideHeaderL1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  text-align: center;
+  color: #3c2313;
+  background-color: #fff;
+
+  border-radius: 5px;
+  padding: 10px;
+  height: 35px;
+  width: 345px;
+}
+
+.slideHeaderL2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  text-align: center;
+  color: #3c2313;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.slideBottom {
+  width: 141px;
+  height: 49px;
+  left: 767px;
+  top: 334px;
+  background-color: #f0a83e;
+  color: #fff;
+  font-weight: 400;
+  border-radius: 5px;
+}
+
+.slideBottom:hover {
+  font-size: medium;
+  cursor: pointer;
+}
+
+/* --------------------- SLIDER SECTION ENDS HERE ---------------------*/
+
+/* --------------------- productosdestacados section starts here ---------------------*/
+
+.productosDestacados {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aquamarine;
+  height: 230px;
+}
+
+.productosDestacados img {
+  width: 67px;
+  height: 71px;
+  margin-top: 20px;
+}
+
+.productosDestacados h1 {
+  color: #3c2313;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  height: 47px;
+  width: 406px;
+}
+
+.navProductosDestacados p a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #666666;
+  text-decoration: none;
+}
+
+.navProductosDestacados p span a:hover {
+  font-size: 17px;
+  font-weight: bold;
+  color: #666666;
+  cursor: pointer;
+}
+
+/* ------ CARDS SECTION STARTS HERE ------ */
+
+.cardSection {
+  /*   background-color: #fbfaf6;
+  width: 265px;
+  height: 312px; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  margin-top: 49px;
+  margin-bottom: 30px;
+}
+
+.cardSection article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbfaf6;
+  color: #3c2313;
+  /* text-align: center; */
+}
+.cardSection article:hover {
+  cursor: pointer;
+  border: #3c2313 2px solid;
+  box-shadow: 5px 10px 15px #3c2313;
+}
+
+.cardSection article p {
+  color: #f0a83e;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  /* text-align: center; */
+}
+
+#formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  color: #3c2313;
+  margin-bottom: 41px;
+}
+
+#formulario form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 700px;
+  height: 189px;
+}
+
+#formulario h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  color: #3c2313;
+}
+
+#formulario input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 340px;
+  height: 40px;
+  background-color: #3c2313;
+  color: #fff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 11px;
+  border-radius: 15px;
+  border: none;
+  padding: 15px;
+}
+
+.buttonsBottom {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.buttonReset {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  background-color: #8a8787;
+  border-radius: 10px;
+  width: 110px;
+  height: 34px;
+  color: #fff;
+}
+
+.buttonReset:hover {
+  font-weight: 400;
+  font-size: 18px;
+  box-shadow: 5px 10px 10px #3c2313;
+  cursor: pointer;
+}
+
+.buttonSent {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  background-color: #f0a83e;
+  border-radius: 10px;
+  width: 110px;
+  height: 34px;
+  color: #fff;
+}
+.buttonSent:hover {
+  font-weight: 400;
+  font-size: 18px;
+  box-shadow: 5px 10px 10px #3c2313;
+  cursor: pointer;
+}
+
+.subscriptionForm {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f0a83e;
+  height: 60px;
+}
+
+.subscriptionForm h2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f0a83e;
+  height: 60px;
+  color: #fff;
+}
+
+.subscriptionForm div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f0a83e;
+  height: 60px;
+}
+
+.subscriptionForm img {
+  margin-right: 10px;
+}
+
+.subscriptionForm button {
+  background-color: #3c2313;
+  border-radius: 15px;
+  width: 70px;
+  height: 34px;
+  color: #fff;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 11px;
+  box-shadow: 5px, 10px 10px #3c2313;
+}
+
+.subcriptionEmail {
+  margin-right: 15px;
+  padding-left: 15px;
+  height: 40px;
+  width: 271px;
+  border: none;
+  border-radius: 15px;
+  color: #a0a0a0;
+}
+
+/* --------------FOOTER STARTS HERE--------- */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-between;
+  background-color: #3c2313;
+  height: 500px;
+  /*   font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #fff; */
+  padding: 20px 40px;
+}
+
+footer div ul {
+  width: 1024px;
+  height: 298px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #fff;
+  text-decoration: none;
+}
+
+footer li {
+  display: flex;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #fff;
+}
+footer p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  color: #fff;
+}
+
+.logoFooter {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

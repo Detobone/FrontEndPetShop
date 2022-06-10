@@ -4,128 +4,154 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>PetShop</title>
+    <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
+     <!-- --------------------- HEADER STYLES STARTS HERE --------------------- -->
     <header>
-      <nav>
-        <!-- <p> -->
-            <li>
-                <span>
-                    <a href="">Grandes ofertas en comederos</a>
-                    <select>
-                        <option value="value1">Español</option>
-                        <option value= "value2">Inglés</option>
-                        <option value= "value2">Japonés</option>
-                        <option value= "value2">Alemán</option>
-                        <option value= "value2">Portugués</option>
-                    </select>
-                    
-                    <select>
-                        <option value="value1">ARG$</option>
-                        <option value="value2">COP$</option>
-                        <option value="value3">USD$</option>
-                        <option value="value4">EU$</option>
-                        <option value="value5">CAD$</option>
-                    </select>
-                </span>
+      <nav id="languageBar">
+          <a id="navTop" href="">Grandes ofertas en comederos</a>
+        <ul class="topSelect">        
+          <li class="topL2">
+            <select class="topSelect">
+               <option value="value1">Español</option>
+               <option value= "v ">Ingles</option>
+               <option value= "v ">Japonés</option>
+               <option value= "v ">Alemán</option>
+               <option value= "value2">Portugués</option>
+            </select>
+          </li>
+          <li class="">
+            <select class="topSelect">
+               <option value="value1">ARG$</option>
+               <option value="value2">COP$</option>
+               <option value="value3">USD$</option>
+               <option value="value4">EU$</option>
+               <option value="value5">CAD$</option>
+            </select>
             </li>
-        <!-- </p> -->
+          </ul>
       </nav>
-        <div>
-          <p>
-            <span><img src="./img/LogoFrontCat&Dog.png"></span>
-            <span><img src="./img/pawprintNavBar.png"><a href="">Categorías</a></span>
-           <!--  <span class="">-</span> -->
-            <span><img src="./img/pawprintNavBar.png"><a href=""></a>Pets</span>
-           <!--  <span class="">-</span> -->
-            <span><img src="./img/pawprintNavBar.png"><a href=""></a>Nosotros</span>
-            <span><img src="./img/pawprintNavBar.png"><a href=""></a>Contactános</span>
-          </p>
-        </div>
+      <!-- ---------------------NAVIGATION BAR --------------------- -->
+        <nav class="navigationBar">
+          <ul class="logoText">
+            <li><a class="l1" href="./index.html">Front<img src="./img/Cat_Icon.png"></a></li>
+            <li><a href="./index.html">Cat&Dog<img src="./img/Dog_Icon.png"></a></li>
+          </ul>  
+          <ul class="listaNavBar">
+            <li><img src="./img/pawprintNavBar.png"><a href="">Categorías</a></li>
+            <li class=""><img src="./img/pawprintNavBar.png"><a href=""></a>Pets</li>
+            <li class=""><img src="./img/pawprintNavBar.png"><a href=""></a>Nosotros</li>
+            <li class=""><img src="./img/pawprintNavBar.png"><a href=""></a>Contactános</li>
+          </ul>
+        </nav>
     </header>
-        <main>
-          <div id="">
-            <img src="./img/ImagenSlide.png" alt="" />
-            <h2>¡Es un placer tenerte aquí!</h2>
-            <p>¡Comederos en descuento!</p>
-            <button>COMEDEROS</button>
+ <!-- ---------------------NAVIGATION BAR ENDS HERE --------------------- -->
+
+<!--   --------------------- MAIN SECTION STARTS HERE --- -->------------------
+ 
+ <main>
+     <!--       --------------------- SLIDER SECTION STARTS HERE --------------------- -->
+          <div id="slideHeader">
+            <!-- <img src="./img/ImagenSlide.png" alt="" /> -->
+            <ul>
+            <li class="slideHeaderL1"><h2>¡Es un placer tenerte aquí!</h2></li>
+          <li class="slideHeaderL2"><p>¡Comederos en descuento!</p></li>
+        <li><button class="slideBottom">COMEDEROS</button></li>
+          </ul>
           </div>
+          <!-- --------------------- SLIDER SECTION ENDS HERE ---------------------
+ -->
+           <!-- --------------------- productosdestacados section starts here --------------------- -->
           <section>
+          <section class="productosDestacados">
             <img src="./img/pawprint.png" />
             <h1>Productos Destacados</h1>
-            <nav>
+            <nav class="navProductosDestacados">
               <p>
                 <span><a href="">Comederos</a></span>
                 <span class="">-</span>
-                <span><a href=""></a>Accesorios</span>
+                <span><a href="">Accesorios</a></span>
                 <span class="">-</span>
-                <span><a href=""></a>Comida</span>
+                <span><a href="">Comida</a></span>
               </p>
             </nav>
-            <div>
-              <div>
+          </section>
                 <!-- Mirar como es que se sacan las tarjetas con la información en la misma pantalla-->
                 <!-- Aquí tengo que darle el mismo nombre de clases a los botones-->
-                <a>
-                 <button class="">
+
+           <!--      ------ CARDS SECTION STARTS HERE ------ -->
+
+                <section class="cardSection">
+                <article>
                   <img src="./img/Churrasquito.png" />
                   <h4 id="">Juguete Churrasquito</h4>
                   <p>$150</p>
-                 </button>
-                </a>
-                <a>
-                 <button class="">
+                </article>
+                <article>                 
                   <img src="./img/Comedero.png" />
                   <h4 id="">Juguete Comedero para perro</h4>
-                  <p>$250</p>
-                 </button>
-                </a>
-                <a>
-                 <button class="">
+                  <p>$250</p>          
+                </article>
+                <article>              
                   <img src="./img/HuesitoJuguete.png" />
                   <h4 id="">Juguete Huesito</h4>
                   <p>$650</p>
-                 </button>
-                </a>
+                </article>
+              </section>
 <!-- Desde aquí los botones pueden tener diferente nombre de clase-->    
           </section>
+           <!--      ------ CARDS SECTION ENDS HERE ------ -->
         </main>
-        <section id="">
+        <!--   --------------------- MAIN SECTION ENDS HERE --- -->
+        <section id="formulario">
           <form>
             <h2>Contáctanos</h2>
-            <ul type="none">
-              <li>
+            <!-- <ul type="none">
+              <li> -->
                 <input
                   type="text"
                   name="NombreApellido"
                   placeholder="Nombre y Apellido"
                 />
-              </li>
-              <li>
+           <!--    </li>
+              <li> -->
                 <input
                   type="text"
                   name="Email"
                   placeholder="Ingresa tu correo electrónico"
                 />
-              </li>
-              <li>
+             <!--  </li>
+              <li> -->
                 <input type="text" name="Teléfono" placeholder="Teléfono" />
-              </li>
-            </ul>
-            <div>
-              <button>Resetear</button>
-              <button>Enviar</button>
+            <!--   </li>
+            </ul> -->
+          </section>
+
+
+            <div class="buttonsBottom">
+              <button class="buttonReset">Resetear</button>
+              <button class="buttonSent">Enviar</button>
             </div>
           </form>
-        </section>
-      </nav>
+        </div>
+
+        <!-- --------------------------- -->
+        <div class="subscriptionForm">
+          <div>
+          <img src="./img/enviarCorreo.png"/>
         <h2>
-          <img src="./img/enviarCorreo.png" /> Subscríbete para más novedades
+          Subscríbete para más novedades
         </h2>
-        <input type="text" placeholder="Ingresa tu correo electrónico" /> 
+      </div>
+      <div>
+        <input class="subcriptionEmail" type="text" placeholder="Ingresa tu correo electrónico" /> 
         <button>Subscribirme</button>
       </div>
+      </div>
+
+      <!-- --------------------------- -->
    <footer> 
     <div>
         <ul type="none"> 
@@ -145,9 +171,16 @@
                 <p>Dirección de correo</p>
             </li>
         </ul>
-    <div><img src="./img/LogoFrontCat&Dog.png"> </div>
+    <div class="logoFooter">
+      <img src="./img/LogoFrontCat&Dog.png"> 
     </div>
-    <div><p>Todos los derechos reservados</p></div>
+    </div>
+
+
+
+    <div>
+      <p>Todos los derechos reservados</p>
+    </div>
    </footer>
    <script src="/app/app.js"></script>
   </body>
